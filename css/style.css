@@ -45,8 +45,8 @@ font-family: 'Fjalla One', sans-serif;
   width: 50%;
   padding: 3%;
 }
-.flexbox nav ul li a {
-  font-size: 2.5em;
+nav ul li a {
+  font-size: 1.5em;
   font-family: 'Press Start 2P', cursive;
   color: #ffffff;
   text-decoration: none;
@@ -82,25 +82,15 @@ ul.graph li.percent80 {
 ul.graph li.percent100 {
   width: 80%;
 }
-.flexbox {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+nav {
   display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 85%;
   background-color: red;
-  margin: 5%;
-}
-.child {
-  height: 10%;
-  width: 20%;
-  margin: auto;
-  display: inline;
+  margin: 1%;
 }
 nav ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -108,5 +98,8 @@ nav ul {
 }
 nav ul li {
   display: inline;
-  padding: 5%;
+  margin: auto;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
 }
