@@ -24,7 +24,7 @@ body{
   background-color: rgba(250, 250, 250, 0.8);
   margin: auto;
   width:70%;
-  height: 20%;
+  /*height: 100%;*/
   box-shadow: -15px 15px 5px grey;
 
 }
@@ -58,7 +58,8 @@ body{
 	width: 50%;
 	padding: 3%;
 }
- nav ul li a{
+
+a{
 	font-size:1.5em;
 	font-family: 'Press Start 2P', cursive;
   color: #ffffff;
@@ -107,20 +108,26 @@ ul.graph li.percent100{
 }
 
 //flexbox
-
-nav{
-  
+*, *:before, *:after {
+  box-sizing: inherit;
 }
-
-nav ul {
-   
-
+html {
+  box-sizing: border-box;
 }
-
-nav ul li{
-   
+.barre{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  width: 85%;
+  padding: 20px;
 }
-
+.lien{
+  display: flex;
+  align-items: center;
+  padding:20px;
+  background-color: #333;
+}
 
 /* boutons/
 
