@@ -82,24 +82,3 @@ ul.graph li.percent80 {
 ul.graph li.percent100 {
   width: 80%;
 }
-nav {
-  display: flex;
-  justify-content: center;
-  width: 85%;
-  background-color: red;
-  margin: 1%;
-}
-nav ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-}
-nav ul li {
-  display: inline;
-  margin: auto;
-  text-align: center;
-  margin: 2rem;
-  padding: 1rem;
-}
