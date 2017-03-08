@@ -42,8 +42,9 @@ font-family: 'Fjalla One', sans-serif;
 #section_01 p {
   font-family: 'Fjalla One', sans-serif;
   font-size: 1em;
-  width: 50%;
   padding: 3%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 a {
   font-size: 1.5em;
@@ -51,36 +52,56 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+#presentation {
+  width: 40%;
+}
 /*section graphique*/
 #graphique {
   width: 40%;
-  float: right;
 }
 ul.graph {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: grey;
 }
 ul.graph li {
   margin-bottom: 0.5em;
   padding: 0.2em;
   background: #600;
   color: #fff;
+  text-align: center;
 }
-ul.graph li.percent20 {
-  width: 20%;
-}
-ul.graph li.percent40 {
-  width: 40%;
+ul.graph li span {
+  float: right;
 }
 ul.graph li.percent60 {
   width: 60%;
+  background-color: #430e5b;
+}
+ul.graph li.percent65 {
+  width: 65%;
+  background-color: #86cbe2;
+}
+ul.graph li.percent70 {
+  width: 70%;
+  background-color: #86cbe2;
+}
+ul.graph li.percent75 {
+  width: 75%;
+  background-color: #a0c3ec;
 }
 ul.graph li.percent80 {
   width: 80%;
+  background-color: #a673be;
 }
-ul.graph li.percent100 {
-  width: 80%;
+ul.graph li.percent85 {
+  width: 85%;
+  background-color: #6d407a;
+}
+ul.graph li.percent90 {
+  width: 90%;
+  background-color: #430e5b;
 }
 *,
 *:before,
