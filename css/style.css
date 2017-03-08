@@ -58,6 +58,7 @@ a {
 /*section graphique*/
 #graphique {
   width: 40%;
+  float: right;
 }
 ul.graph {
   margin: 0;
@@ -124,4 +125,13 @@ html {
   align-items: center;
   padding: 20px;
   background-color: #333;
+}
+#galerie {
+  text-align: center;
+}
+#galerie img {
+  width: 60%;
+}
+#galerie #cent {
+  width: 100%;
 }
