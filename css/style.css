@@ -20,11 +20,11 @@ font-family: 'Fjalla One', sans-serif;
   width: 70%;
   border-radius: 25px;
 }
+/*section des titres/texte*/
 #titre {
   width: 70%;
   margin: auto;
 }
-/*section des titres/texte*/
 #titre h1 {
   margin-top: 10%;
   font-size: 3em;
@@ -44,12 +44,6 @@ font-family: 'Fjalla One', sans-serif;
   padding: 3%;
   text-align: justify;
   text-justify: inter-word;
-}
-a {
-  font-size: 1.5em;
-  font-family: 'Press Start 2P', cursive;
-  color: #ffffff;
-  text-decoration: none;
 }
 #presentation {
   width: 40%;
@@ -103,25 +97,27 @@ ul.graph li.percent90 {
   width: 90%;
   background-color: #430e5b;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+/*navigation*/
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
-html {
-  box-sizing: border-box;
+nav li {
+  font-size: 1.8em;
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-left: 3%;
+  margin-right: 3%;
 }
-.barre {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 75%;
-  padding: 20px;
+nav a {
+  text-decoration: none;
+  color: black;
+  display: inline;
 }
-.lien {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background-color: #333;
+.actif {
+  border-bottom: 3px solid black;
 }
