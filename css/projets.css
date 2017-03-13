@@ -1,20 +1,27 @@
 #galerie {
   text-align: center;
 }
-#galerie img {
-  width: 60%;
+#galerie #large {
+  width: 95%;
 }
-#galerie #cent {
-  width: 100%;
-}
-#elixir {
-  width: 60%;
+.polaroid {
   margin: 0 auto;
-}
-.polaroid img {
-  background: white;
+  background-color: white;
+  width: 60%;
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 45px;
+  margin-bottom: 2%;
+  box-shadow: 5px 0px 20px #888888;
+}
+.polaroid img {
+  width: 100%;
+}
+#elixir {
+  margin-top: 5%;
+}
+#elixir_figcap {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
 }
