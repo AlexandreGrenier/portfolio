@@ -1,0 +1,20 @@
+#galerie {
+  text-align: center;
+}
+#galerie img {
+  width: 60%;
+}
+#galerie #cent {
+  width: 100%;
+}
+#elixir {
+  width: 60%;
+  margin: 0 auto;
+}
+.polaroid img {
+  background: white;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 45px;
+}
