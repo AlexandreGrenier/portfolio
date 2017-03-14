@@ -2,6 +2,11 @@
 font-family: 'Press Start 2P', cursive;
 font-family: 'Fjalla One', sans-serif;
 */
+body {
+  /*background: #41295a; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 #bgvid {
   position: fixed;
   left: 0;
@@ -119,5 +124,9 @@ nav a {
   display: inline;
 }
 .actif {
+  border-bottom: 3px solid black;
+}
+/*navigation hover*/
+nav li a:hover {
   border-bottom: 3px solid black;
 }

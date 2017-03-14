@@ -3,6 +3,7 @@
 }
 #galerie #large {
   width: 95%;
+  border: 3px solid white;
 }
 .polaroid {
   margin: 0 auto;
@@ -20,8 +21,68 @@
 #elixir {
   margin-top: 5%;
 }
-#elixir_figcap {
+.polaroid figcaption {
+  min-height: 50%;
   width: 85%;
   margin: 0 auto;
   background-color: white;
+  font-family: 'Fjalla One', sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  vertical-align: center;
+}
+/*SOUS_TITRES*/
+.soustitre {
+  z-index: -3;
+  position: fixed;
+  top: 30%;
+  left: 3%;
+}
+#designST {
+  position: absolute;
+  font-size: 25em;
+  font-family: 'Fjalla One', sans-serif;
+  color: #870000;
+  text-align: center;
+  letter-spacing: 50px;
+  animation: colorchange 10s infinite;
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 10s infinite;
+  /* Chrome and Safari */
+}
+/*rotation https://css-tricks.com/snippets/css/text-rotation/  CHRIS COYIER */
+.rotate {
+  /* Safari */
+  -webkit-transform: rotate(-10deg);
+  /* Firefox */
+  -moz-transform: rotate(-10deg);
+  /* IE */
+  -ms-transform: rotate(-10deg);
+  /* Opera */
+  -o-transform: rotate(-10deg);
+}
+/*animation designST*/
+@keyframes colorchange {
+  0% {
+    color: #870000;
+  }
+  50% {
+    color: #190A05;
+  }
+  100% {
+    color: #870000;
+  }
+}
+@-webkit-keyframes colorchange {
+  /* Safari and Chrome - necessary duplicate */
+  0% {
+    color: #870000;
+  }
+  50% {
+    color: #190A05;
+  }
+  100% {
+    color: #870000;
+  }
 }
