@@ -14,15 +14,16 @@
   padding-left: 15px;
   margin-bottom: 2%;
   box-shadow: 5px 0px 20px #888888;
+  margin-top: 5%;
 }
 .polaroid img {
   width: 100%;
 }
 #elixir {
-  margin-top: 5%;
+  /*	margin-top:5%;*/
 }
 #solus_01 {
-  margin-top: 5%;
+  /*margin-top:5%;*/
 }
 .polaroid figcaption {
   min-height: 50%;
