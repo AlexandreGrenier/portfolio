@@ -49,7 +49,7 @@ text-align: center;
 	z-index: -3;
 	position:fixed;
 	top: 30%;
-	left: 3%
+	left: 3%;
 }
 #designST{
 	position:absolute;
@@ -67,6 +67,8 @@ text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 5em;
 	color: green;
+	animation: pharmacie 10s infinite;
+	-webkit-animation: pharmacie 10s ease-in-out infinite;
 
 }
 
@@ -99,5 +101,19 @@ text-align: center;
     	0%		{color:	#870000;}
    		50% 	{color:	#190A05;}
     	100%	{color:	#870000;}
+    }
+
+ @keyframes pharmacie
+    {
+    	0%		{transform:rotate(7deg);}
+    	50% 	{transform:rotate(-7deg);}
+    	100%	{transform:rotate(7deg);}
+    }
+
+ @-webkit-keyframes pharmacie 
+    {
+    	0%		{-webkit-transform:rotate(7deg);}
+    	50% 	{-webkit-transform:rotate(-7deg);}
+    	100%	{-webkit-transform:rotate(7deg);}
     }
 

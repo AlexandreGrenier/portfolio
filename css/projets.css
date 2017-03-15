@@ -61,6 +61,8 @@
   font-family: 'Press Start 2P', cursive;
   font-size: 5em;
   color: green;
+  animation: pharmacie 10s infinite;
+  -webkit-animation: pharmacie 10s ease-in-out infinite;
 }
 /*rotation https://css-tricks.com/snippets/css/text-rotation/  CHRIS COYIER */
 .rotate {
@@ -95,5 +97,27 @@
   }
   100% {
     color: #870000;
+  }
+}
+@keyframes pharmacie {
+  0% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+@-webkit-keyframes pharmacie {
+  0% {
+    -webkit-transform: rotate(7deg);
+  }
+  50% {
+    -webkit-transform: rotate(-7deg);
+  }
+  100% {
+    -webkit-transform: rotate(7deg);
   }
 }
