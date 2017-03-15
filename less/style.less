@@ -40,9 +40,9 @@ body{
   margin: auto;
   width:70%;
   border-radius: 25px;
+  display: table
 
 }
-
 /*section des titres/texte*/
 #titre{
   width:70%;
@@ -57,7 +57,7 @@ body{
 	padding-left: 5%;
 }
 #section_01 h2{
-	font-size:2em;
+	font-size:1.8em;
 	font-family: 'Fjalla One', sans-serif;
 	padding: 1.5%;
   margin-left: 5%;
@@ -71,15 +71,8 @@ body{
   text-align: justify;
   text-justify: inter-word;
 }
-#presentation{
-  width: 40%;
-}
 
 /*section graphique*/
-#graphique{
-  width: 40%;
-  //float: right;
-}
 
 ul.graph{
   margin: 0;
@@ -133,6 +126,23 @@ ul.graph li.percent90{
   width:90%;
   background-color: @couleur_01;
 }
+
+/*positionnement*/
+section{
+float: left;
+width:60%;
+}
+#presentation{
+
+}
+aside{
+float: right;
+width: 30%;
+}
+#graphique{
+   vertical-align: middle;
+}
+
 
 /*navigation*/
 
